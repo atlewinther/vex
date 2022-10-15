@@ -1,0 +1,20 @@
+// this is a comment
+
+/* And this 
+is a comment */
+
+
+// Vector
+vector x = {3.5, 0, 29}; // a statement must end with a semicolon=;
+v@myFirst = x; // vector type asigned to myFirst @attribute
+
+// cast to integer. Houdini think every attribute is a float as default.
+i@y = 8; // integer
+@myInt = @y; // float
+
+// Float
+@myFloat = 5 + 8;
+i@convertToInt = @myFloat;
+
+// @Cd is a predefined password
+v@Cd = {1, 0, 0};
